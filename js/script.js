@@ -1,0 +1,4 @@
+
+
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":980},"pages":[{"id":"page-home","displayName":"Home","link":{"linkType":"LinkTypePage","href":"#!page-home"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-research","displayName":"Research","link":{"linkType":"LinkTypePage","href":"#!page-research"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-teaching","displayName":"Teaching","link":{"linkType":"LinkTypePage","href":"#!page-teaching"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-contact","displayName":"Contact","link":{"linkType":"LinkTypePage","href":"#!page-contact"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true}]}
