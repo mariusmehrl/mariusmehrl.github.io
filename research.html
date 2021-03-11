@@ -65,13 +65,13 @@
     <section data-silex-type="container-element" class="container-element editable-style silex-id-1483130857943-13 section-element small-height website-min-width hide-on-mobile prevent-resizable">
         <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1483130857943-12 container-element"></div>
     </section>
-    <section data-silex-type="container-element" class="container-element editable-style silex-id-1483130355289-7 section-element prevent-resizable website-min-width">
-        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1483130355289-6 container-element"><div data-silex-type="text-element" class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable prevent-auto-z-index hamburger-menu"><div class="silex-element-content normal"><style>.hamburger-menu_1611594001214_886 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1611594001214_886 nav {left: -9999px;}.hamburger-menu_1611594001214_886 nav ul {margin-top: 80px;}.hamburger-menu_1611594001214_886 nav {opacity: 0; position: absolute; background-color: #B4E5E8; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1611594001214_886.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1611594001214_886 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1611594001214_886.open .nav-container {}.hamburger-menu_1611594001214_886 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1611594001214_886 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+    <section data-silex-type="container-element" class="container-element editable-style silex-id-1483130355289-7 section-element prevent-resizable website-min-width" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1483130355289-6 container-element"><div data-silex-type="text-element" class="editable-style silex-id-1552772425150-3 text-element silex-component prevent-resizable prevent-auto-z-index hamburger-menu"><div class="silex-element-content normal"><style>.hamburger-menu_1615470616331_273 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1615470616331_273 nav {left: -9999px;}.hamburger-menu_1615470616331_273 nav ul {margin-top: 80px;}.hamburger-menu_1615470616331_273 nav {opacity: 0; position: absolute; background-color: #ffffff; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1615470616331_273.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1615470616331_273 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1615470616331_273.open .nav-container {}.hamburger-menu_1615470616331_273 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1615470616331_273 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1611594001214_886.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1611594001214_886 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1611594001214_886.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1611594001214_886.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1611594001214_886 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1611594001214_886.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1615470616331_273.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1615470616331_273 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1615470616331_273.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1615470616331_273.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1615470616331_273 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1615470616331_273.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1611594001214_886 closed">
+<div class="hamburger-menu_1615470616331_273 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -86,9 +86,9 @@
             
                 <li><a href="research.html" title="Research" class="page-link-active">Research</a></li>
             
-                <li><a href="teaching.html" title="Teaching" class="">Teaching</a></li>
+                <li><a href="teaching.html" title="Teaching">Teaching</a></li>
             
-                <li><a href="contact.html" class="">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             
             </ul>
         </nav>
@@ -100,26 +100,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1611594001214_886').removeClass('open');
-    $('.hamburger-menu_1611594001214_886').addClass('closed');
+    $('.hamburger-menu_1615470616331_273').removeClass('open');
+    $('.hamburger-menu_1615470616331_273').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1611594001214_886').addClass('open');
-    $('.hamburger-menu_1611594001214_886').removeClass('closed');
+    $('.hamburger-menu_1615470616331_273').addClass('open');
+    $('.hamburger-menu_1615470616331_273').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1611594001214_886').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1615470616331_273').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1611594001214_886 .nav-container').css({
+    $('.hamburger-menu_1615470616331_273 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1611594001214_886 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1615470616331_273 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -139,16 +139,27 @@
                 <img src="assets/Uni%2010.05.2019%20Staff%20H&amp;S%20095.JPG" class=""></div></a>
             
 
-        <div data-silex-type="container-element" class="editable-style silex-id-1574718129010-5 container-element page-research paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style silex-id-1574717804683-3 text-element page-research paged-element paged-element-visible" style=""><div class="silex-element-content normal"><h2>Peer-reviewed Publications</h2><ol><li>Mehrl, Marius, and Ioannis
-Choulis. Forthcoming. The Colonial Roots of Structural Coup-Proofing. Accepted
-for publication at<i> International Interactions</i>.
+        <div data-silex-type="container-element" class="editable-style silex-id-1574718129010-5 container-element page-research paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style silex-id-1574717804683-3 text-element page-research paged-element paged-element-visible" style=""><div class="silex-element-content normal"><h2>Peer-reviewed Publications</h2><ol><li>Mehrl, Marius. Forthcoming. The Effect of Child Soldiers on rebel Violence against Civilians. <i>Civil Wars</i>: 
+Accepted
+for publication.
 
 
+ <br></li><li>Mehrl, Marius, and Ioannis
+Choulis. Forthcoming. The Colonial Roots of Structural Coup-Proofing.<i> International Interactions</i>: 
+Accepted
+for publication.
 
-<br>
-</li><li>Bakaki, Zorzeta, and Marius
+<br></li><li>
+Mehrl, Marius, and Ioannis
+Choulis. Forthcoming. 
+
+Diversionary Politics and Territorial Disputes: Evidence from Turkish Airspace Incursions.<i> Foreign Policy Analysis</i>.: 
+Accepted
+for publication.
+
+<br></li><li>Bakaki, Zorzeta, and Marius
 Mehrl. 2021. Examining Conflict Management Technique Sequences in International
-Claims. International Interactions: Online.<a href="https://www.dropbox.com/s/sbu0ju4cr415qo9/II_acceptedversion.pdf?dl=0"><i> Accepted Version </i></a><a href="https://www.tandfonline.com/doi/full/10.1080/03050629.2020.1814762"><i>Publisher Link</i></a>
+Claims. <i>International Interactions</i> 47 (1): 56-78.<a href="https://www.dropbox.com/s/sbu0ju4cr415qo9/II_acceptedversion.pdf?dl=0"><i> Accepted Version </i></a><a href="https://www.tandfonline.com/doi/full/10.1080/03050629.2020.1814762"><i>Publisher Link</i></a>
 
 </li><li>Mehrl, Marius. 2020.
 Female Combatants and Wartime Rape: Reconsidering the Role of Women in Armed
@@ -157,14 +168,14 @@ Conflict. <i>Armed Forces &amp; Society</i>: OnlineFirst.<i><a href="https://jou
 </i>
 
 <br></li><li>Mehrl, Marius, and Paul W. Thurner. 2020. The Effect of the COVID-19
-Pandemic on Global Armed Conflict: Early Evidence. Political
-Studies Review: OnlineFirst.<i><a href="https://doi.org/10.1177%2F1478929920940648"><i> Publisher Link (Open Access)</i></a>
+Pandemic on Global Armed Conflict: Early Evidence. <i>Political
+Studies Review</i>: OnlineFirst.<i><a href="https://doi.org/10.1177%2F1478929920940648"><i> Publisher Link (Open Access)</i></a>
 
 
 
 </i><br></li><li>Mehrl, Marius, and Tobias
 Böhmelt. 2021. How Mediator Leadership Transitions Influence Mediation Effectiveness.
-Conflict Management and Peace Science 38 (1): 
+<i>Conflict Management and Peace Science</i> 38 (1): 
  45-62
 
 .<a href="https://doi.org/10.1177/0738894220916833" title="publ"><i> Publisher Link (Open Access)</i></a>
@@ -173,7 +184,7 @@ Conflict Management and Peace Science 38 (1):
 
 </li><li>Mehrl, Marius, and Paul W. Thurner. 2020. Military Technology and Human 
 Loss in Intrastate Conflict: The Conditional Impact of Governmental Arms
- Imports. Journal of Conflict Resolution 64 (6): 
+ Imports.<i> Journal of Conflict Resolution</i> 64 (6): 
 1172-1196.<a href="http://repository.essex.ac.uk/id/eprint/25981"><i> Accepted Version </i></a><i><a href="https://doi.org/10.1177/0022002719893446">Publisher Link</a></i></li></ol><p><br></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1574717977310-4 page-research paged-element paged-element-visible" style=""><div class="silex-element-content normal"><h2>Other Publications</h2>
 
 <ol><li>Mehrl, Marius. 2017. Bargaining with Intensity: Arms and the Signalling 
